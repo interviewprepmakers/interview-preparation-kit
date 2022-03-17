@@ -11,5 +11,7 @@ phases:
 artifacts:
   files:
     - "*"
+  override-artifact-name: true
+  packaging: NONE
   name: build/$CODEBUILD_BUILD_NUMBER/my-artifacts
   base-directory: build
