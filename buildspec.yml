@@ -9,8 +9,8 @@ phases:
       - echo Build started on `date`
       - npm run build
 artifacts:
+  OverrideArtifactName: true
   files:
     - "*"
   name: build/$CODEBUILD_BUILD_NUMBER/my-artifacts
-  overrideArtifactName: true
   base-directory: build
