@@ -12,4 +12,5 @@ artifacts:
   files:
     - "*"
   name: build/$CODEBUILD_BUILD_NUMBER/my-artifacts
+  overrideArtifactName: yes
   base-directory: build
